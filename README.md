@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="banner" title="banner" src="src/main/webapp/banner.png" style="width:50%;" />
+  <img alt="banner" title="banner" src="src/main/webapp/banner.png" />
 </h1>
 
 # :computer: carteira
