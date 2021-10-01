@@ -1,6 +1,6 @@
-<!-- <h1 align="center">
-  <img alt="banner" title="banner" src="src/main/webapp/banner.png" />
-</h1> -->
+<h1 align="center">
+  <img alt="banner" title="banner" src="src/main/webapp/banner.png" style="width:50%;" />
+</h1>
 
 # :computer: carteira
 CRUD em Java utilizando Servlet, JSP e JDBC.
