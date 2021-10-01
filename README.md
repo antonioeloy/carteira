@@ -50,15 +50,22 @@ $ docker-compose up
 # Acesse o seguinte endereço no navegador
 $ http://localhost:8080/carteira/transacoes
 ```
-<!--
+
 ### :gear: Testando a aplicação
 
 A aplicação permite realizar um CRUD de transações, conforme imagens a seguir:
 
 <h1 align="center">
-  <img alt="tela" title="tela" src="src/main/webapp/tela.PNG" />
+  <img alt="listagem" title="listagem" src="src/main/webapp/listagem.PNG" />
 </h1>
--->
+
+<h1 align="center">
+  <img alt="cadastro" title="cadastro" src="src/main/webapp/cadastro.PNG" />
+</h1>
+
+<h1 align="center">
+  <img alt="edicao" title="edicao" src="src/main/webapp/edicao.PNG" />
+</h1>
 
 ### :copyright: Licença
 
