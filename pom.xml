@@ -1,0 +1,78 @@
+<!-- Project -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <!-- Model Version -->
+  <modelVersion>4.0.0</modelVersion>
+  
+  <!-- Project Metadata -->
+  <groupId>br.com.alura</groupId>
+  <artifactId>carteira</artifactId>
+  <version>1.0</version>
+  <packaging>war</packaging>
+  <name>carteira</name>
+  <description>Projeto Carteira - Bootcamp Java Alura 2021 - Módulo 1</description>
+  
+  <!-- Dependencies -->
+  <dependencies>
+  
+  	<!-- JSTL -->
+  	<dependency>
+	    <groupId>jstl</groupId>
+	    <artifactId>jstl</artifactId>
+	    <version>1.2</version>
+	</dependency>
+	
+	<!-- JSTL API -->
+	<dependency>
+	    <groupId>javax.servlet.jsp.jstl</groupId>
+	    <artifactId>jstl-api</artifactId>
+	    <version>1.2</version>
+	</dependency>
+	
+	<!-- MySQL Driver -->
+	<dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	    <version>8.0.26</version>
+	</dependency>
+	
+	<!-- Javax Servlet API -->
+	<dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>javax.servlet-api</artifactId>
+	    <version>4.0.1</version>
+	    <scope>provided</scope>
+	</dependency>
+	
+  </dependencies>
+  
+  <!-- Build -->
+  <build>
+  
+  	<!-- Final name -->
+  	<finalName>carteira</finalName>
+  	
+  	<!-- Plugins -->
+    <plugins>
+    
+      <!-- Maven Compiler -->
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+        	<source>1.8</source>
+        	<target>1.8</target>
+        </configuration>
+      </plugin>
+      
+      <!--  Maven War Plugin -->
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.2.3</version>
+      </plugin>
+
+    </plugins>
+    
+  </build>
+  
+</project>

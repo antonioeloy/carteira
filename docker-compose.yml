@@ -1,0 +1,16 @@
+version: '3.6'
+services:   
+    application:
+        build: .
+        ports:
+            - 8080:8080
+    mysqldb:
+        image: mysql:8.0
+        environment:
+            - MYSQL_ROOT_PASSWORD=root
+            - MYSQL_DATABASE=carteira
+        volumes: 
+            - ./init:/docker-entrypoint-initdb.d
+        ports:
+            - 3306:3306
+        
