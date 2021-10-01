@@ -15,6 +15,7 @@ Concluído.
 As seguintes tecnologias e ferramentas foram utilizadas no desenvolvimento deste projeto:
 
 - [Java](https://www.oracle.com/java/)
+- [Servlet](https://www.oracle.com/java/technologies/java-servlet-tec.html)
 - [JSP (JavaServer Pages)](https://www.oracle.com/java/technologies/jspt.html)
 - [JSTL (JavaServer Pages Standard Tag Library)](https://www.oracle.com/java/technologies/java-server-tag-library.html)
 - [JDBC (Java Database Connectivity)](https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/)
@@ -22,7 +23,6 @@ As seguintes tecnologias e ferramentas foram utilizadas no desenvolvimento deste
 - [Apache Tomcat](http://tomcat.apache.org/)
 - [MySQL](https://www.mysql.com/)
 - [Maven](https://maven.apache.org/)
-- [Eclipse IDE](https://www.eclipse.org/)
 - [Git](https://git-scm.com/)
 - [Docker](https://www.docker.com/)
 
