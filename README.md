@@ -62,11 +62,13 @@ Antes de começar, você precisa ter instalado em sua máquina as seguintes ferr
 # Clone este repositório
 $ git clone https://github.com/antonioeloy/carteira.git
 
-# Execute os contêineres da aplicação
+# Na pasta raiz do projeto, execute os contêineres da aplicação
 $ docker-compose up
+```
 
-# Acesse o seguinte endereço no navegador
-$ http://localhost:8080/carteira/transacoes
+A aplicação ficará disponível no seguinte endereço:
+```
+http://localhost:8080/carteira/transacoes
 ```
 
 <a name="testando"/></a>
