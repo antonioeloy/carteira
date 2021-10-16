@@ -39,7 +39,7 @@ As seguintes tecnologias e ferramentas foram utilizadas no desenvolvimento deste
 
 A aplicação foi desenvolvida na linguagem Java. A tecnologia Servlet foi utilizada para tratar as requisições HTTP. As páginas Web foram construídas com JSP/JSTL e estilizadas com os recursos do framework Bootstrap. O acesso ao banco de dados foi realizado por meio do JDBC. O Maven foi empregado para gerenciar a construção e as dependências da aplicação.
 
-O controle de versão do código é realizado com o Git. A aplicação roda no servidor Tomcat e utiliza o banco de dados MySQL. O docker é empregado para criar os contêineres necessários para executar a aplicação.
+O controle de versão do código é realizado com o Git. A aplicação roda no servidor Tomcat e utiliza o banco de dados MySQL. O Docker é empregado para criar os contêineres necessários para executar a aplicação.
 
 <a name="features"/></a>
 ### :page_with_curl: Features
